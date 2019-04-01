@@ -71,6 +71,22 @@ p {
     margin: 0 auto;
 }
 
+.img {
+    margin-bottom: 10px;
+}
+
+.nav {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+nav a:not(:last-child) {
+    margin-right: 65px;
+  }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -143,4 +159,73 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.line {
+    border: 1px dashed #000;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.container-about-page .box{
+    width: 600px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.upper-nav{
+    width: 1000px;
+    height: 20px;
+    display: flex;
+    align-content: space-around;
+}
+
+.upper-nav{
+    width: auto;
+    display:inline;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 100%
+
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+#bx1{
+    background-color: teal;
+}
+#bx2{
+    background-color: gold;
+}
+#bx3{
+    background-color: cadetblue;
+}
+#bx4{
+    background-color: coral;
+}
+#bx5{
+    background-color: crimson;
+}
+
+#bx6{
+    background-color: forestgreen;
+}
+#bx7{
+    background-color: darkorchid;
+}
+#bx8{
+    background-color: hotpink;
+}
+#bx9{
+    background-color: indigo;
+}
+#bx10{
+    background-color: dodgerblue;
 }
